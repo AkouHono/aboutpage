@@ -1,0 +1,88 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    background-color: #162e76;
+    width: 100%;
+    height: 70px;
+    
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    
+    margin: 0 auto; 
+    
+    
+    color: #f3f4f6;
+  }
+  
+  .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+   
+    transition: color 0.3s ease;
+    font-size: 15px;
+    text-decoration: none;
+  }
+   
+  .logo span img {
+    width: 60px;
+    height: 60px;
+    
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+
+  .logo span img:hover {
+    transform: scale(1.1);
+  }
+  
+  .nav_links ul {
+    list-style: none;
+ 
+    margin-right: 90px;
+    margin-left: 90px;
+
+    display: flex;
+    gap: 45px;
+  }
+  
+  .nav_links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-size: 15px;
+  
+   
+    cursor: pointer;
+  }
+  
+  .nav_links a:hover {
+    color: #ffcc00;
+  }
+  
+  .social-icons {
+    color: white;
+    margin-right: 40px;
+    gap: 3px;
+    margin-left:0px ;
+    transition: color 0.3s ease;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .fa-icon {
+    color: white;
+    margin-right: 40px;
+    gap: 3px;
+    margin-left:0px ;
+    transition: color 0.3s ease;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .fa-icon:hover {
+    color: #ffcc00;
+  }
+  

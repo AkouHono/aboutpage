@@ -1,0 +1,147 @@
+.about-me-container {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    background-color: white;
+    transition: background 0.3s ease;
+
+    
+   
+  }
+
+
+  
+  .about-me-content h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: white;
+    background-color: #ff9900;
+    padding: 20px 20px 20px;
+    margin-right: 450px  ;
+    margin-left: 450px;
+
+  }
+  
+  .about-me-content p {
+    text-align: center;
+    color: black;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  
+  .profile-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 0px;
+    margin-left: 130px;
+    margin-top: 3px;   
+  }
+  
+  
+  .profile-details h3 {
+    font-size: 1.8rem;
+    color: #162e76;
+    margin-top: 5px;
+  }
+  .profile-details p{
+    color: black;
+    margin-bottom: 2rem;
+    font-weight: normal;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+  }
+  
+  .stats div {
+    text-align: center;
+  }
+  
+  .stats h4 {
+    font-size: 1.5rem;
+    color: #ff9900;
+  }
+  
+  .stats p {
+    font-size: 0.9rem;
+    color: #162e76;
+  }
+  
+  .skills .skill {
+    margin: 1rem 0;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  
+  .skills .progress-bar {
+    background-color: #e0e0e0ab;
+    height: 8px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .skills .progress-bar .progress {
+    height: 8px;
+    background-color: #ff9900;
+  }
+  
+  .download-cv {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+
+   
+  }
+  .download-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #162e76;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-button:hover {
+    background-color: #ff9900;
+    transition: background 0.3s ease;
+    cursor: pointer;
+  }
+  
+
+  
+  .profile-details {
+    max-width: 500px;
+    height: auto;
+    background-color: #fff;
+    margin-top: 1rem;
+    padding: 1rem;
+    transition: background 0.3s ease;
+    cursor: pointer;
+    border: 0.5px solid black;
+
+
+
+  }
+
+  .profile-details:hover{
+    background: linear-gradient(135deg, #d1eff3 0%, #e8ecef 100%);
+  }
+
+
+  
